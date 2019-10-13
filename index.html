@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <header>
+  <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <ul class = "nav">
-      <li class ="nav" style="float:left; display: block;  color: white;  text-align: center;  padding: 14px 16px;text-decoration: none;">Braeden Haesemeyer</li>
-      <li class = "nav"><a href = "work\index.html">Work</a></li>
-      <li class = "nav"><a href = "about\index.html">About</a></li>
-      <li class = "nav"><a href = "resume\index.html">Resume</a></li>
-    </ul>
-  </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
   <body>
+    <div class="header" id="myHeader">
+      <ul class = "nav">
+        <li class ="nav" style="float:left; display: block;  color: white;  text-align: center;  padding: 14px 16px;text-decoration: none;">Braeden Haesemeyer</li>
+        <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\work\index.html">Work</a></li>
+        <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\about\index.html">about</a></li>
+        <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\resume\index.html">Resume</a></li>
+        <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\index.html">Home</a></li>
+      </ul>
+    </div>
 
-
-    <div class="flexrow">
+    <div class="flexrow"style="align-items:center;">
       <div class="flexcol" style="width:30%">
           <img src="resources\Hero-photo.png" alt = "avatar" class = "hero-pic">
       </div>
       <div class="flexcol">
-        <h1> asfasefsef </h1>
-        <p>
+        <h1> Braeden Haesemeyer</h1>
+        <h2>User Experience Designer</h2>
+        <h2>User Experience Researcher</h2>
+        <h2>Front-end Developer</h2>
+        <h2>Technical Writer</h2>
 
-        </p>
-      </div>
-      <div class="flexcol">
-        <h1> asfasefsef </h1>
-        <p>
-
-        </p>
       </div>
     </div>
 
-
-
-
     <script>
-    // When the user scrolls the page, execute myFunction
     window.onscroll = function() {myFunction()};
 
-    // Get the navbar
-    var navbar = document.getElementById("navbar");
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
 
-    // Get the offset position of the navbar
-    var sticky = navbar.offsetTop;
-
-    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
     function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
       } else {
-        navbar.classList.remove("sticky");
+        header.classList.remove("sticky");
       }
     }
     </script>

@@ -1,9 +1,36 @@
-<<!DOCTYPE html>>
+<!DOCTYPE html>
 <html>
-  <header>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </header>
-  <body>
-    Work
-  </body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<div class="header" id="myHeader">
+  <ul class = "nav">
+    <li class ="nav" style="float:left; display: block;  color: white;  text-align: center;  padding: 14px 16px;text-decoration: none;">Braeden Haesemeyer</li>
+    <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\work\index.html">Work</a></li>
+    <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\about\index.html">about</a></li>
+    <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\resume\index.html">Resume</a></li>
+    <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\index.html">Home</a></li>
+  </ul>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
 </html>
