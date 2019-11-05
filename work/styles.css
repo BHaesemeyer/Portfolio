@@ -1,10 +1,9 @@
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-::-webkit-scrollbar {
-    display: none;
-}
+
 .top-container {
   background-color: #f1f1f1;
   padding: 30px;
@@ -12,6 +11,7 @@ body {
 }
 
 .header {
+
 }
 
 .content {
@@ -27,7 +27,6 @@ body {
 .sticky + .content {
   padding-top: 102px;
 }
-
 
 ul.nav{
   list-style-type: none;
@@ -50,13 +49,6 @@ li.nav a:hover{
   background-color: #111;
   color: white;
 }
-.hero-pic {
-  display: inline;
-  margin: auto;
-  margin-left: 0;
-  border-radius: 100%;
-  width: 100%;
- }
 
 
 .flexrow{

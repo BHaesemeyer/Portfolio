@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="header" id="myHeader">
+      <ul class = "nav">
+        <li class ="nav" style="float:left"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\index.html">Home</a></li>
+        <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\work\index.html">Work</a></li>
+        <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\about\index.html">about</a></li>
+        <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\resume\index.html">Resume</a></li>
+      </ul>
+    </div>
+
+    <div class="flexrow"style="align-items:center;">
+      <div class="flexcol" style="width:30%">
+          <img src="resources\Hero-photo.png" alt = "avatar" class = "hero-pic">
+      </div>
+      <div class="flexcol">
+        <h1> Braeden Haesemeyer</h1>
+        <h2>User Experience Designer</h2>
+        <h2>User Experience Researcher</h2>
+        <h2>Front-end Developer</h2>
+        <h2>Technical Writer</h2>
+
+      </div>
+    </div>
+
+    <div class="flexrow"style="align-items:center;">
+
+      <div class="flexcol">
+        <h1> Latest work</h1>
+      </div>
+    </div>
+
+    <div class="flexrow"style="align-items:center; padding:0 0 10% 0;">
+      <div class="flexcol">
+        <img src="/Users/braedenhaesemeyer/Documents/GitHub/Portfolio/resources/solysit card.png" alt = "avatar" style="width:300px;">
+      </div>
+    </div>
+
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+  </body>
+</html>
