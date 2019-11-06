@@ -2,9 +2,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-::-webkit-scrollbar {
-    display: none;
-}
+
 .top-container {
   background-color: #f1f1f1;
   padding: 30px;
@@ -17,17 +15,6 @@ body {
 .content {
   padding: 16px;
 }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
 
 ul.nav{
   list-style-type: none;

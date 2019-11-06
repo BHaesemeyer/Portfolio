@@ -7,29 +7,30 @@
 </head>
 <body>
 
-<div class="header" id="myHeader">
+<div class="header" id="myHeader" style="background-color: #AAE8FE">
   <ul class = "nav">
-    <li class ="nav" style="float:left"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\index.html">Home</a></li>
+    <li class ="nav" style="float:left"><a href = "..\index.html">Home</a></li>
     <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\work\index.html">Work</a></li>
     <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\about\index.html">about</a></li>
     <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\resume\index.html">Resume</a></li>
   </ul>
 </div>
 
-<script>
-window.onscroll = function() {myFunction()};
+<div class="flexrow" style="background-color: #AAE8FE; padding: 10% 0 0 0;">
+  <div class="flexcol" style="  align-items: center;" >
+      <h1>Solysit - a Service Market place</h1>
+      <img src="../resources/solysit larger card.png" alt = "Solysit" style="width: 400px;">
+  </div>
+</div>
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
+<div class="flexrow"style="padding:10% 10% 0 10%">
+  <div class="flexcol" >
+    <h1> Overview </h1>
+  </div>
+  <div class="flexcol" >
+    <h1>Goals</h1>
+  </div>
+</div>
 
 </body>
 </html>
