@@ -53,3 +53,15 @@ li.nav a:hover{
   flex-direction:column;
   flex-wrap: wrap;
 }
+.flexcol-halfcard{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.flexcol-fullcard{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width: 600px;
+}
