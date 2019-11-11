@@ -4,19 +4,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-.header {
-
-}
-
-.content {
-  padding: 16px;
-}
 
 ul.nav{
   list-style-type: none;
@@ -40,28 +27,43 @@ li.nav a:hover{
   color: white;
 }
 
-
 .flexrow{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 10% 0 10% 0;
+  padding: 10% 0 0 0;
+}
+
+.flexrow-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #AAE8FE;
+  padding: 10% 0 0 0;
 }
 .flexcol{
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
+  width:80%;
+}
+.image{
+  width:600px;
 }
 .flexcol-halfcard{
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-  width: 300px;
+  width: 35%;
 }
-.flexcol-fullcard{
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  width: 600px;
+#Headercard{
+  width: 30%;
+  align-self: center;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
