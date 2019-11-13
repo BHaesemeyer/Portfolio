@@ -9,10 +9,10 @@
 
   <div class="header" id="myHeader" style="background-color: #AAE8FE">
     <ul class = "nav">
-      <li class ="nav" style="float:left"><a href = "..\index.html">Home</a></li>
-      <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\work\index.html">Work</a></li>
-      <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\about\index.html">about</a></li>
-      <li class = "nav"><a href = "C:\Users\brady\OneDrive\Documents\GitHub\Portfolio\resume\index.html">Resume</a></li>
+      <li class = "nav"><a href = "..\index.html#resume">Resume</a></li>
+      <li class = "nav"><a href = "..\index.html#about">About</a></li>
+      <li class = "nav"><a href = "..\index.html#work">Work</a></li>
+      <li class = "nav"><a href = "..\index.html">Home</a></li>
     </ul>
   </div>
 
@@ -43,12 +43,12 @@
     </div>
   </div>
 
-  <div class="flexrow">
+  <div class="flexrow" id="prompt">
     <div class = "flexcol">
       <h1 > The Prompt </h1>
       <h2>“Design an experience that is centered around kindness”</h2>
-      <p>I did some Crazy-8’s and came up with the idea for an elderly-assistance app. While I was making a user empathy map I realized that what I was designing could expand out to a much wider audience than just elderly people.</p>
-      <p>Solysit is a service marketplace that aims to connect people who need help with people who need financial assistance.</p>
+      <p>After a couple brainstorming exercises I came up with the idea for an elderly-assistance app. While I was making a user empathy map I realized that what I was designing could expand out to a much wider audience than just elderly people.</p>
+      <p>Finally I settled on the idea of creating a service market place. Solysit is an app that connects users who need services like yardwork, maintenance, or cleaning, with users who are looking for work or supplemental income.</p>
     </div>
 
 
@@ -57,7 +57,7 @@
   <div class="flexrow">
     <div class="flexcol" >
       <h1>Competitive Analysis</h1>
-      <p>Solysist was hardly an original idea, the nice thing about this was I had plenty of competition to review. I centered in on three competitors; Craigslist, TaskRabbit, and Upwork.</p>
+      <p>I centered in on three competitors to analyze; Craigslist, TaskRabbit, and Upwork.</p>
       <p>These websites did a lot of really nice things:</p>
       <ul>
         <li>Both Upwork and TaskRabbit seemed trustworthy</li>
@@ -83,77 +83,96 @@
       <h1 > User Personas </h1>
       <p>
         After settling on a service marketplace, I created two personas to ensure my designs stayed user focused.
-        The first empathy map resents a user that is looking for work and the second represents a user that is looking for help.
+        David resents a user that is looking for work and Vanessa represents a user that is looking for help.
       </p>
-      <img src="..\resources\David.png" style="width:1000px; align-self:center; padding: 5%;">
-      <img src="..\resources\Vanessa.png" style="width:1000px; align-self:center; padding: 5% 5% 0 5%;">
+    </div>
+  </div>
+  <div class="flexrow-deliverable">
+    <img src="..\resources\Vanessa.png" class="deliverable" Style="width:80%;">
+  </div>  <div class="flexrow-deliverable">
+      <img src="..\resources\David.png" class="deliverable" Style="width:80%;">
+    </div>
 
+  <div class="flexrow">
+    <div class="flexcol" >
+      <h1>User Problem</h1>
+      <p>Websites that keep their services behind login restrictions loose out on many prospective users and end up with a smaller pool of users.
+         Craigslist has does an excellent job of capturing this "guest user" market but a poor job of building trust and quality control into its services.</p>
+      <p>Common user pain points</p>
+      <ul>
+        <li>Lengthy Sign up Processes</li>
+        <li>Not being able to trust other users</li>
+        <li>Lack of transparency betweent a service and its users</li>
+      </ul>
+      <p>Accounting for these insights, I set out to develop an experience that</p>
+      <ul>
+        <li>Ensures user tasks are quick and easy</li>
+        <li>Devleops trust amongst its users</li>
+        <li>Facilitates complete access for guest users</li>
+      </ul>
     </div>
   </div>
 
   <div class="flexrow">
     <div class="flexcol" >
-      <h1>User Problem</h1>
-      <p>Solysist was hardly an original idea, the nice thing about this was I had plenty of competition to review. I centered in on three competitors; Craigslist, TaskRabbit, and Upwork.</p>
-      <p>These websites did a lot of really nice things:</p>
-      <ul>
-        <li>Both Upwork and TaskRabbit seemed trustworthy</li>
-        <li>Both Upwork and TaskRabbit had nice progress bars</li>
-        <li>Only Craigslist allowed non-posters to access the full extent of their experience without signing in</li>
-      </ul>
-      <p>They also had some common faults:</p>
-      <ul>
-        <li>Signup prompts popped up after making it through each process</li>
-        <li>The entire proces of posting a job takes too long</li>
-        <li>Craigslist in particular feels a little untrustworthy</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="flexrow">
-    <div class="flexcol-halfcard" >
       <h1 > User Flows </h1>
       <p>
         I started with a user flow to map out how the ideal experience for both sets of users.
         Given the constraints of this project I had to keep the flow and therefore the overall design short and simple.
       </p>
     </div>
-      <img src="..\resources\User Flow.png" style="width:600px">
+
+
+
+  </div>
+
+  <div class="flexrow-deliverable" >
+    <img src="..\resources\User Flow.png" class ="deliverable" style="width:80%;">
   </div>
 
   <div class="flexrow">
-    <div class="flexcol-halfcard" >
+    <div class="flexcol" >
       <h1 >Drafting Wireframes </h1>
       <p>
         Since I included simple illustrations of each screen in my user-flow I had a good idea on how I wanted the first set of wires to look.
       </p>
     </div>
-      <img src="..\resources\Draft wires.png" style="width:600px">
+
+  </div>
+
+  <div class="flexrow-deliverable">
+    <img src="..\resources\Draft wires.png" class ="deliverable" style="width:50%;">
   </div>
 
   <div class="flexrow">
-    <div class="flexcol-halfcard" >
+    <div class="flexcol" >
       <h1> Digitizing Wireframes </h1>
       <p>
         Next I digitized my wireframes. At this point in my project I was working on a Dell XPS laptop and therefore did not have access to Sketch.
         I used a program called Lunacy to create sketch files for my wireframes. This high-fidelity draft is where introduced a lot of copy.
       </p>
     </div>
-    <img src="..\resources\digitized wires.png" style="width:600px">
   </div>
 
+  <div class="flexrow-deliverable">
+    <img src="..\resources\digitized wires.png" class ="deliverable">
+  </div>
+
+
   <div class="flexrow">
-    <div class="flexcol-halfcard" >
+    <div class="flexcol" >
       <h1 > Clickable Prototype </h1>
       <p>
         Using Invision I drafted a clickable prototype to present to users during my user testing. Invision allows users to create one free prototype.
       </br>  </br>
-        <a href="https://braedenhaesemeyer686123.invisionapp.com/public/share/C8WTVCUVE">Here is a link to the final clickable prototype.</a>
+        <a href="https://braedenhaesemeyer686123.invisionapp.com/public/share/C8WTVCUVE" target="_blank">Here is a link to the final clickable prototype.</a>
       </br>  </br>
         This prototype is the results of several rounds of user testing and an overhaul of the user interface design.
       </p>
     </div>
-    <img src="..\resources\clickable wires.png" style="width:600px">
+  </div>
+  <div class="flexrow-deliverable">
+    <img src="..\resources\clickable wires.png" class ="deliverable">
   </div>
 
   <div class="flexrow">
@@ -180,11 +199,11 @@
         <li>Users were confused by the rating system I had implemented</li>
       </ul>
     </div>
-      <img src="..\resources\coffman the cube.png">
+      <img src="..\resources\coffman the cube.png" class="location">
   </div>
 
   <div class="flexrow">
-    <div class="flexcol-halfcard" >
+    <div class="flexcol" >
       <h2 > Round One: Adjustments </h2>
       <p>
         After this round of testing, and at the suggestion of my Professor McLean Donnelly I purchased a Macbook Pro and rebuilt my screens in Sketch completely.
@@ -198,7 +217,9 @@
         <li>Removal of “social media” features such as the trending feed and likes and comments on postings</li>
       </ul>
     </div>
-      <img src="..\resources\round one adjustments.png" style="width:600px">
+  </div>
+  <div class="flexrow-deliverable">
+    <img src="..\resources\round one adjustments.png" class="deliverable">
   </div>
 
   <div class="flexrow">
@@ -216,11 +237,11 @@
         <li>One user wanted to be able to use there current location rather than enter it</li>
       </ul>
     </div>
-      <img src="..\resources\Spyhouse coffee on washington (1).png" style="width:600px">
+      <img src="..\resources\Spyhouse coffee on washington (1).png" class="location">
   </div>
 
   <div class="flexrow">
-    <div class="flexcol-halfcard" >
+    <div class="flexcol" >
       <h2 > Round Two: Adjustments </h2>
       <p>
         After this round of testing I felt pretty confident in my designs and made fewer adjustments that the first round of testing:
@@ -232,7 +253,10 @@
         <li>Added a Map to give users another way to view the results</li>
       </ul>
     </div>
-      <img src="..\resources\round 2 adjustments.png" class="image">
+  </div>
+
+  <div class="flexrow-deliverable">
+    <img src="..\resources\round 2 adjustments.png" class ="deliverable">
   </div>
 
   <div class="flexrow">
@@ -249,11 +273,11 @@
         <li>Users found Solysit to be a quick and easy way to request help from their peers</li>
       </ul>
     </div>
-      <img src="..\resources\Dogwood coffee NE.png" style="width:600px">
+      <img src="..\resources\Dogwood coffee NE.png" class="location">
   </div>
 
   <div class="flexrow">
-    <div class="flexcol-halfcard" >
+    <div class="flexcol" >
       <h2 > Round Three: Adjustments </h2>
       <p>
         After this round of testing I felt that Solysit was close to its final state making only the following adjustments:
@@ -263,8 +287,13 @@
         <li>Added a spot to enter a location into the “Add Content” screen.</li>
       </ul>
     </div>
-      <img src="..\resources\round 3 adjustments.png" style="width:600px" >
+
   </div>
+
+  <div class="flexrow-deliverable">
+    <img src="..\resources\round 3 adjustments.png" class ="deliverable" >
+  </div>
+
 
   <div class="flexrow">
     <div class="flexcol" >

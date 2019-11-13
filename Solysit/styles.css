@@ -31,8 +31,16 @@ li.nav a:hover{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 10% 0 0 0;
+  justify-content: space-between;
+  padding: 5% 10% 5% 10%;
+}
+
+.flexrow-deliverable{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10% 5% 10%;
 }
 
 .flexrow-header{
@@ -41,7 +49,7 @@ li.nav a:hover{
   flex-wrap: wrap;
   justify-content: center;
   background-color: #AAE8FE;
-  padding: 10% 0 0 0;
+  padding: 5% 0 0 0;
 }
 .flexcol{
   display: flex;
@@ -49,21 +57,32 @@ li.nav a:hover{
   flex-wrap: wrap;
   width:80%;
 }
-.image{
+img.deliverable{
+  width:60%;
+}
+img.location{
   width:600px;
 }
+
 .flexcol-halfcard{
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-  width: 35%;
+  width: 600px;
 }
 #Headercard{
   width: 30%;
   align-self: center;
 }
+#header{
+
+}
+#prompt{
+  background-color: #c8a2c8;
+  color: white;
+}
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  img.location{
+    width:300px;
   }
 }
