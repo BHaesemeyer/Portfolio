@@ -46,18 +46,27 @@ li.nav a:hover{
  }
 
 
-.flexrow{
+ .flexrow{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 5% 10% 5% 10%;
+ }
+ .flexcol{
+   display: flex;
+   flex-direction:column;
+   flex-wrap: wrap;
+   width:80%;
+ }
+
+.flexrow-card{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 0 0 10% 0;
-}
-.flexcol{
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  width:1200px;
+  justify-content: space-around;
+  padding: 5% 0 0 0;
+  width:100%;
 }
 
 #work{}
