@@ -86,3 +86,11 @@ img.location{
     width:300px;
   }
 }
+@media only screen and (min-width: 1800px) {
+  img.location{
+    width:600px;
+  }
+  .flexcol-halfcard{
+    width:1200px;
+  }
+}
