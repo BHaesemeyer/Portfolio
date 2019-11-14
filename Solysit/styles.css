@@ -61,7 +61,7 @@ img.deliverable{
   width:60%;
 }
 img.location{
-  width:600px;
+  width:60%;
 }
 
 .flexcol-halfcard{
@@ -81,16 +81,12 @@ img.location{
   background-color: #c8a2c8;
   color: white;
 }
+#usertesting{
+  background-color: #C0E5C8;
+}
 @media only screen and (max-width: 600px) {
   img.location{
     width:300px;
   }
 }
-@media only screen and (min-width: 1800px) {
-  img.location{
-    width:600px;
-  }
-  .flexcol-halfcard{
-    width:1200px;
-  }
 }
