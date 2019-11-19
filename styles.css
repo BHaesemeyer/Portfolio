@@ -72,3 +72,17 @@ li.nav a:hover{
 #work{}
 #resume{}
 #about{}
+
+iframe{
+  width: 800px;
+  height: 1030px;
+}
+  @media only screen and (max-width: 600px) {
+
+iframe{
+  width: 300px;
+  height: 386px;
+}
+
+
+  }
