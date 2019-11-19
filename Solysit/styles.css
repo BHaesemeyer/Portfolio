@@ -59,6 +59,7 @@ li.nav a:hover{
 }
 img.deliverable{
   width:60%;
+  object-fit: scale-down;
 }
 img.location{
   width:60%;
