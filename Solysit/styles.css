@@ -20,6 +20,12 @@ li.nav a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
 
 li.nav a:hover{
