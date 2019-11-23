@@ -58,11 +58,19 @@ li.nav a:hover{
    flex-wrap: wrap;
    width:80%;
  }
+ .flexrow-intro{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 10% 20% 0 20%;
+ }
  .flexcol-intro{
    display: flex;
    flex-direction:column;
    flex-wrap: wrap;
    width:500px;
+   padding: 0 10% 0 10%
  }
 .flexrow-card{
   display: flex;
@@ -92,7 +100,14 @@ iframe{
   flex-direction:column;
   flex-wrap: wrap;
   width:300px;
+  padding: 0 10% 0 10%
 }
-
+.flexrow-intro{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10% 10% 0 10%;
+}
 
   }
