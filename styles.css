@@ -62,7 +62,7 @@ li.nav a:hover{
    display: flex;
    flex-direction:column;
    flex-wrap: wrap;
-   width:600px;
+   width:500px;
  }
 .flexrow-card{
   display: flex;
