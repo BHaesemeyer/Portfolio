@@ -44,14 +44,6 @@ li.nav a:hover{
   background-color: #111;
   color: white;
 }
-.hero-pic {
-  display: inline;
-  margin: auto;
-  margin-left: 0;
-  border-radius: 100%;
-  width: 100%;
- }
-
 
  .flexrow{
    display: flex;
@@ -66,7 +58,12 @@ li.nav a:hover{
    flex-wrap: wrap;
    width:80%;
  }
-
+ .flexcol-intro{
+   display: flex;
+   flex-direction:column;
+   flex-wrap: wrap;
+   width:600px;
+ }
 .flexrow-card{
   display: flex;
   flex-direction: row;
@@ -89,6 +86,12 @@ iframe{
 iframe{
   width: 300px;
   height: 386px;
+}
+.flexcol-intro{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width:300px;
 }
 
 
