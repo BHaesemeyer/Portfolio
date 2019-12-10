@@ -137,7 +137,7 @@
 
   <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
+    <div class="mySlides1 fade">
       <div class="numbertext">1 / 5</div>
         <div class="flexrow-deliverable">
           <img src="../resources/GenOn/Draft 1 Slide Show/GenOn Wires - Pre Testing - First three.png" class="deliverable" style="width:100%;">
@@ -145,7 +145,7 @@
       <div class="text">Home Page + Get Started + Menu</div>
     </div>
 
-    <div class="mySlides fade">
+    <div class="mySlides1 fade">
       <div class="numbertext">2 / 5</div>
         <div class="flexrow-deliverable">
           <img src="../resources/GenOn/Draft 1 Slide Show/GenOn Wires - Pre Testing - View Events.png" class="deliverable" style="width:100%">
@@ -153,7 +153,7 @@
       <div class="text">View Events</div>
     </div>
 
-    <div class="mySlides fade">
+    <div class="mySlides1 fade">
       <div class="numbertext">3 / 5</div>
         <div class="flexrow-deliverable">
           <img src="../resources/GenOn/Draft 1 Slide Show/GenOn Wires - Pre Testing - Register.png" class="deliverable" style="width:100%">
@@ -161,7 +161,7 @@
       <div class="text">Register for an Event</div>
     </div>
 
-    <div class="mySlides fade">
+    <div class="mySlides1 fade">
       <div class="numbertext">4 / 5</div>
         <div class="flexrow-deliverable">
           <img src="../resources/GenOn/Draft 1 Slide Show/GenOn Wires - Pre Testing - Request to Host.png" class="deliverable" style="width:100%">
@@ -170,17 +170,17 @@
     </div>
 
     <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
   </div>
   <br>
 
   <!-- The dots/circles -->
   <div style="text-align:center; ">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot1" onclick="currentSlide(1,1)"></span>
+    <span class="dot1" onclick="currentSlide(2,1)"></span>
+    <span class="dot1" onclick="currentSlide(3,1)"></span>
+    <span class="dot1" onclick="currentSlide(4,1)"></span>
   </div>
 
   <div class="flexrow">
@@ -322,7 +322,7 @@
 
   <div class="flexrow" >
     <div class="flexcol" >
-      <h1> Solysit's Success</h1>
+      <h1> Final Outcome </h1>
       <p>
         At the beginning of this project I set out with the goal to gain a comprehensive understanding of UX design.
         This project has certainly helped me do that. I created a User Experience design that in the end users found intuitive and could see themselves using.
@@ -330,6 +330,54 @@
       </p>
 
     </div>
+  </div>
+
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides2 fade">
+      <div class="numbertext">1 / 5</div>
+        <div class="flexrow-deliverable">
+          <img src="../resources/GenOn/Final Slides/GenOn Wires - Final Design - First few.png" class="deliverable" style="width:100%;">
+        </div>
+      <div class="text">Home Page + Get Started + Menu</div>
+    </div>
+
+    <div class="mySlides2 fade">
+      <div class="numbertext">2 / 5</div>
+        <div class="flexrow-deliverable">
+          <img src="../resources/GenOn/Final Slides/GenOn Wires - Final Design - View Events.png" class="deliverable" style="width:100%">
+        </div>
+      <div class="text">View Events</div>
+    </div>
+
+    <div class="mySlides2 fade">
+      <div class="numbertext">3 / 5</div>
+        <div class="flexrow-deliverable">
+          <img src="../resources/GenOn/Final Slides/GenOn Wires - Final Design - Register.png" class="deliverable" style="width:100%">
+        </div>
+      <div class="text">Register for an Event</div>
+    </div>
+
+    <div class="mySlides2 fade">
+      <div class="numbertext">4 / 5</div>
+        <div class="flexrow-deliverable">
+          <img src="../resources/GenOn/Final Slides/GenOn Wires - Final Design - Request.png" class="deliverable" style="width:100%">
+        </div>
+      <div class="text">Request to Host Training</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center; ">
+    <span class="dot2" onclick="currentSlide(1,2)"></span>
+    <span class="dot2" onclick="currentSlide(2,2)"></span>
+    <span class="dot2" onclick="currentSlide(3,2)"></span>
+    <span class="dot2" onclick="currentSlide(4,2)"></span>
   </div>
 
   <div class="flexrow">
@@ -362,31 +410,54 @@
 </body>
 
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+var slideIndex1 = 1;
+var slideIndex2 = 1;
+showSlides(slideIndex1,1);
+showSlides(slideIndex2,2);
+
+function plusSlides(n,j) {
+  if (j=1){showSlides(slideIndex1+=n,j); }
+
+  if (j=2){showSlides(slideIndex2+=n,j);}
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(n,j) {
+  if (j=1){showSlides((slideIndex1 = n),j);}
+  if (j=2){showSlides((slideIndex2 = n),j);}
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
+function showSlides(n,j) {
+  if(j=1){
+    var i;
+    var slides = document.getElementsByClassName("mySlides1");
+    var dots = document.getElementsByClassName("dot1");
+    if (n > slides.length) {slideIndex1 = 1}
+    if (n < 1) {slideIndex1 = slides.length}
+    for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
+    }
+    for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex1-1].style.display = "block";
+    dots[slideIndex1-1].className += " active";}
+
+  if(j=2){
+    var i;
+    var slides = document.getElementsByClassName("mySlides2");
+    var dots = document.getElementsByClassName("dot2");
+    if (n > slides.length) {slideIndex2 = 1}
+    if (n < 1) {slideIndex2 = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex2-1].style.display = "block";
+    dots[slideIndex2-1].className += " active";
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
 }
 </script>
 </html>

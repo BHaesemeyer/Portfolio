@@ -102,7 +102,7 @@ img.location{
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1, .mySlides2 {
   display: none;
 }
 
@@ -154,7 +154,7 @@ img.location{
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot1, .dot2 {
   cursor: pointer;
   height: 15px;
   width: 15px;
