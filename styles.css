@@ -61,15 +61,14 @@ li.nav a:hover{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: left;
-   padding: 10% 20% 0 20%;
+   justify-content: Center;
+   padding: 10% 10% 0 10%;
  }
  .flexcol-intro{
    display: flex;
    flex-direction:column;
    flex-wrap: wrap;
-   width:500px;
-   padding: 0 10% 0 10%
+   padding:0 0 0 5%;
  }
 .flexrow-card{
   display: flex;
@@ -93,13 +92,6 @@ iframe{
 iframe{
   width: 300px;
   height: 386px;
-}
-.flexcol-intro{
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  width:300px;
-  padding: 0 10% 0 10%
 }
 .flexrow-intro{
   display: flex;
