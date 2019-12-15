@@ -116,9 +116,9 @@ li.nav a:hover{
   width:100%;
 }
 
-#work{}
-#resume{}
-#about{}
+#work a{display:block}
+#resume a{display:block}
+#about a{display:block}
 
 iframe{
   width: 800px;
