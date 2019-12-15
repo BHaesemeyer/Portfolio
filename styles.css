@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -45,36 +47,71 @@ li.nav a:hover{
 }
 
  .flexrow{
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
    padding: 5% 10% 5% 10%;
  }
  .flexcol{
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction:column;
-   flex-wrap: wrap;
+   -webkit-box-orient:vertical;
+   -webkit-box-direction:normal;
+       -ms-flex-direction:column;
+           flex-direction:column;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
    width:80%;
  }
  .flexrow-intro{
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: Center;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+   -webkit-box-pack: Center;
+       -ms-flex-pack: Center;
+           justify-content: Center;
    padding: 10% 10% 0 10%;
  }
  .flexcol-intro{
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction:column;
-   flex-wrap: wrap;
+   -webkit-box-orient:vertical;
+   -webkit-box-direction:normal;
+       -ms-flex-direction:column;
+           flex-direction:column;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
    padding:0 0 0 5%;
  }
 .flexrow-card{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 5% 0 0 0;
   width:100%;
 }
@@ -94,10 +131,17 @@ iframe{
   height: 386px;
 }
 .flexrow-intro{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 10% 10% 0 10%;
 }
 
