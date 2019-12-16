@@ -89,7 +89,9 @@ img.location{
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-  width:500px;
+  max-width: 480px;
+  min-width: 300px;
+
 }
 
 #Headercard{
@@ -214,14 +216,19 @@ img.location{
 /* End SLide Show*/
 
 @media only screen and (max-width: 600px) {
-  flexcol-halfcard{
-    width:300px;
-  }
+
+
   img.deliverable-half{
     padding: 5% 0 5% 0;
     margin:0;
     width: 300px;
     object-fit: contain;
   }
-}
+  .flexcol-halfcard{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+
 }

@@ -74,7 +74,7 @@ li.nav a:hover{
    display: flex;
    flex-direction:column;
    flex-wrap: wrap;
-   width: 600px;
+   width: 40%;
    padding:0 0 0 12%;
  }
 .flexrow-card{
@@ -111,7 +111,7 @@ iframe{
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-  width: 300px;
+  width: 100%;
   padding:0 0 0 5%;
 }
 

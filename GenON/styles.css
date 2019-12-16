@@ -92,11 +92,13 @@ img.location{
   object-fit: scale-down;
 }
 
+
 .flexcol-halfcard{
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-  width: 500px;
+  max-width: 480px;
+  min-width: 300px;
 }
 #Headercard{
   width: 50%;
