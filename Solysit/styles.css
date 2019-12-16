@@ -3,7 +3,8 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+h2{
+  font-size:48;}
 table, th, td {
 
   padding: 5px;
@@ -55,20 +56,12 @@ li.nav a:hover{
   padding: 5% 0 5% 0;
 }
 
-.flexrow-deliverable{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0 10% 5% 10%;
-}
-
 .flexrow-header{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #E6C3F5;
+  background-color: #AAE8FE;
 }
 .flexcol{
   display: flex;
@@ -96,8 +89,9 @@ img.location{
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-  width: 500px;
+  width:500px;
 }
+
 #Headercard{
   width: 50%;
   align-self: center;
@@ -106,10 +100,9 @@ img.location{
 
 }
 #prompt{
-  background-color: #5f0f67;
+  background-color: #003366;
   color: white;
   padding: 5% 15% 5% 15%;
-
 }
 #usertesting{
   background-color: #f3f1f1;
@@ -126,9 +119,10 @@ img.location{
 
 /* Slideshow container */
 .slideshow-container {
-  width: 80%;
+  width: 100%;
   position: relative;
   margin: auto;
+  align-items: center;
 }
 
 /* Hide the images by default */
@@ -218,7 +212,6 @@ img.location{
 }
 
 /* End SLide Show*/
-
 
 @media only screen and (max-width: 600px) {
   flexcol-halfcard{
